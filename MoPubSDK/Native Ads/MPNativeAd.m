@@ -279,7 +279,6 @@
 
 - (void)loadImageForURL:(NSURL *)imageURL intoImageView:(UIImageView *)imageView
 {
-    imageView.image = nil;
     [imageView mp_setNativeAd:self];
     [self.managedImageViews addObject:imageView];
     
@@ -318,6 +317,7 @@
         }
         
         if (image) {
+            imageView.image = nil;
             imageView.image = image;
         }
     });
