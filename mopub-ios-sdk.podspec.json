@@ -16,7 +16,7 @@
     "ios": "5.0"
   },
   "source": {
-    "git": "https://github.com/mopub/mopub-ios-sdk.git",
+    "git": "https://github.com/protikhonov/mopub-ios-sdk.git",
     "tag": "2.1.0"
   },
   "frameworks": [
